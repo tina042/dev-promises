@@ -8,7 +8,6 @@ appDiv1.innerHTML = `<h1>JS Promises at Devfest 2022</h1>`;
 const country = 'India';
 
 const promise = getCountryCode(country);
-
 promise
   .then((countryCode) => {
     return countryCode;
